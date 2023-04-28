@@ -25,7 +25,7 @@ pipeline {
         stage('Docker Push') {
             steps {
 		//Aquí debes poner tu github
-                sh 'docker push https://github.com/AlexRodriguezFortanet/EjermploDockerHub_AlejandroRodriguez.git'
+                sh 'docker push alexrodriguezfortanet/dockerhub'
                 }
             }
         }
